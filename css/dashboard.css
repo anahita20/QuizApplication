@@ -1,0 +1,95 @@
+body{
+    background-color: #f8f8f8;
+}
+
+#bargraph{
+    height: 500px;
+   width: fit-content;
+}
+
+#piechart{
+    height: 500px;
+    width: fit-content;
+}
+
+.grid-container>.grid-item{
+    position: relative;
+    left: 100px;
+   
+}
+
+.card
+{
+  height: 15em;
+  justify-content: center;
+}
+.card-size
+{
+  margin:auto;
+  width: 18rem;
+   background-size: 100% 100%;
+   color: white;
+   font-weight: 600;
+}
+.card-sports
+{
+  background-image:linear-gradient(rgba(1,1,1,0.3), rgba(1,1,1,0.3)),url('../images/sports.jpg');
+}
+.card-entertainment
+{
+  background-image:linear-gradient(rgba(1,1,1,0.3), rgba(1,1,1,0.3)),url('../images/entertainment.jpg');
+}
+.card-science
+{
+  background-image:linear-gradient(rgba(1,1,1,0.3), rgba(1,1,1,0.3)),url('../images/science.jpg');
+}
+.card-gk
+{
+  background-image:linear-gradient(rgba(1,1,1,0.3), rgba(1,1,1,0.3)),url('../images/gk.jpg');
+}
+.card-pf
+{
+  background-image:linear-gradient(rgba(1,1,1,0.3), rgba(1,1,1,0.3)),url('../images/programming.jpg');
+}
+.card-space
+{
+  background-image:linear-gradient(rgba(1,1,1,0.3), rgba(1,1,1,0.3)),url('../images/space.jpg');
+}
+.card:hover
+{
+  border: 3px solid black;
+}
+
+.lead
+{
+  width: auto;
+  margin-top: 30%;
+  margin-bottom: auto;
+}
+
+
+
+
+
+table{
+   box-shadow:  5px 5px #ebd1d1bb;
+}
+
+
+.username{
+    text-align: center;
+     color: black;
+    animation: animate 0.5s linear infinite; 
+}
+
+@keyframes animate{ 
+    0%{ 
+      color: black; 
+    } 
+    50%{ 
+      color: rgba(0, 255, 255, 0.479); 
+    } 
+    100%{ 
+      color: rgba(255, 0, 0, 0.74); 
+    } 
+}
